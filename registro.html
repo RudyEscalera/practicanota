@@ -7,6 +7,7 @@
 	<script src="scriprudy.js"></script>
 </head>
 <body onload="muestra()">
+	<img class="propaganda"src="fondohomer.jpg" alt="">
 	<header>
 		<ul>
 			<li><a href="clases.html">CLASES</a></li>
@@ -14,7 +15,8 @@
 			<li><a href="precio.html">PRECIO</a></li>
 			<li><a href="registro.html">REGISTRARSE</a></li>
 		</ul>
-		<h1>Sistemas Web</h1>
+		<h1 class="titulotext">Sistemas Web</h1>
+		<img class="logo"src="css3.png" alt="">
 	</header>-->
 	<section id="cuerpo">
 		<aside id="izquierdaregistro"><h1>Registrate</h1><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque debitis ullam corporis voluptas. Magni laboriosam ex perspiciatis obcaecati eaque officiis, qui, dicta deleniti velit delectus harum nobis fuga beatae repellat.</span>
@@ -29,26 +31,30 @@
               <br>
               <input type="text" name="name" placeholder="Full name" required>
             </label>
-			<br>
+			<label>
+			Sexo: <br>Male<input type="radio" name="sex" value="male">Female<input type="radio" name="sex" value="female">	
+			</label><br>
+			<label >
+				Fecha Nacimiento: <input type="date">	
+			</label>
+			<label for="">
+				Color Polera: <input type="color" name="color">
+			</label>
             <label>
               Email
               <br>
               <input type="email" name="email" placeholder="Email address" required>
             </label>
-			<br>
             <label>
               Ciudad
-              <br>
               <select name="city" required>
                 <option value="Cochabamba" selected>Cochabamba</option>
                 <option value="La Paz">La Paz</option>
                 <option value="Santa Cruz">Santa Cruz</option>
               </select>
             </label>
-			<br>
             <label>
               Comentarios
-              <br>
               <textarea name="comments"></textarea>
             </label>
 
